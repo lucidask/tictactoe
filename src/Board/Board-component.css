@@ -1,0 +1,13 @@
+
+.board{
+	display: grid;
+	place-items: center;
+}
+
+.content {
+	width: auto;
+	height: auto;
+	display: grid;
+	grid-template: repeat(3, 70px) / repeat(3, 60px);
+	background-color: #14bdac;
+}

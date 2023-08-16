@@ -1,0 +1,30 @@
+.square {
+    width: 55px;
+    height: 65px;
+    background-color: #14bdac;
+    border-radius: 8px;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .square:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+  }
+
+  .x {
+    color: rgb(114, 32, 18);
+  }
+  
+  .o {
+    color: rgb(26, 77, 145);
+  }
